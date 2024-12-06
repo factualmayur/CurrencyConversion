@@ -63,10 +63,10 @@ function App() {
 
   return (
     <div className="container flex flex-col gap-4 text-black bg-white rounded-2xl">
-      <h1 className="p-4 font-serif text-center -tracking-tighter">Currency Converter</h1>
+      <h1 className="p-2 mt-2 text-3xl font-extrabold text-center">Currency Converter</h1>
 
       {/* Error Display */}
-      <div className="h-6 text-center">
+      <div className="h-3 text-center">
         {error ? <p className="text-red-500">{error}</p> : <span>&nbsp;</span>}
       </div>
 

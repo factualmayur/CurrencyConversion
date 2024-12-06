@@ -10,7 +10,7 @@ function ConvertTo({
     <div className="flex flex-col items-center justify-center font-semibold">
       <label className="mb-2 text-xl text-center text-black">{label}</label>
       <select
-        className="p-3 bg-gray-300 rounded-lg cursor-pointer"
+        className="p-3 pr-4 bg-gray-300 rounded-lg cursor-pointer"
         value={selectCurrency}
         onChange={(e) => onCurrencyChange(e.target.value)}
       >

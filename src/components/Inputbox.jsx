@@ -23,7 +23,7 @@ function InputBox({
       <div className="flex flex-wrap justify-center text-center">
         <p className="w-full m-2 text-xl text-black">Currency Type</p>
         <select
-          className="p-3 bg-gray-300 rounded-lg cursor-pointer"
+          className="p-3 pr-4 bg-gray-300 rounded-lg cursor-pointer"
           value={selectCurrency}
           onChange={(e) => onCurrencyChange(e.target.value)}
         >
