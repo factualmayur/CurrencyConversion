@@ -1,0 +1,21 @@
+const exchangeRates = {
+    base: "USD",
+    date: "2024-12-06",
+    rates: {
+      USD: 1,
+      INR: 83.22,
+      EUR: 0.92,
+      GBP: 0.78,
+      JPY: 149.5,
+      AUD: 1.45,
+      CAD: 1.37,
+      CHF: 0.93,
+      CNY: 7.25,
+      MXN: 18.57,
+      SGD: 1.35,
+      NZD: 1.6,
+      ZAR: 18.4,
+      BRL: 5.18,
+      AED: 3.67,
+    },
+  };
